@@ -1,0 +1,15 @@
+# Allow all content to be crawled and indexed by Googlebot
+User-agent: Googlebot
+Disallow:
+
+# Allow all content to be crawled and indexed by Bingbot
+User-agent: bingbot
+Disallow:
+
+# General rule for all other bots
+User-agent: *
+Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://start-trzzr-docs.github.io/sitemap.xml
